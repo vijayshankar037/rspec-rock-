@@ -22,6 +22,7 @@ gem 'spring-commands-cucumber'
 gem 'cucumber-rails', require: false
 gem 'database_cleaner'
 $bundle exec spring binstub --all
+$bin/rails g cucumber:install
 
 
 https://stevepolito.design/blog/configure-rspec-and-capybara-for-ruby-on-rails/

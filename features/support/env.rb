@@ -5,7 +5,7 @@
 # files.
 
 require 'cucumber/rails'
-
+require 'factory_bot'
 # frozen_string_literal: true
 
 # Capybara defaults to CSS3 selectors rather than XPath.
