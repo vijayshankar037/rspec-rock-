@@ -43,6 +43,7 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-commands-rspec'
+  gem 'spring-commands-cucumber'
   gem 'rspec-rails', '~> 5.0.0'
   gem 'factory_bot'
 end
@@ -53,8 +54,10 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 group :test do
   gem 'capybara'
   gem 'database_cleaner', '~> 1.7'
+  gem 'cucumber-rails', require: false
 end
 
 gem 'bootstrap-sass'
 gem 'simple_form'
 gem 'redcarpet'
+

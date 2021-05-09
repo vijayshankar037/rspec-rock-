@@ -1,0 +1,29 @@
+$ bundle exec rspec --init
+
+Rspec + Capybara Setup
+Capybara Helpers: to navigate the pages
+Factory Bot: Generate testing data(gem 'factory_bot')
+
+Rspec + Capybara Setup:
+ruby: 3.0.0
+rails: 5.2.3
+
+$rails new i-rock -T 
+
+$bin/rails g rspec:install || rails generate rspec:install
+$bundle exec spring binstub --all
+
+$rails g simple_form:install --bootstrap
+$rails g model achievement title description:text privacy:integer featured:boolean cover_image   
+$rails db:drop  db:create db:migrate 
+
+#Cucumber
+gem 'spring-commands-cucumber'
+gem 'cucumber-rails', require: false
+gem 'database_cleaner'
+$bundle exec spring binstub --all
+
+
+https://stevepolito.design/blog/configure-rspec-and-capybara-for-ruby-on-rails/
+
+
