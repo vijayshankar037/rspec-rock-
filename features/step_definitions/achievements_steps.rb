@@ -1,4 +1,4 @@
-require 'factory_bot'
+
 require "#{Rails.root}/spec/factories/achievements"
 
 Given('I am a guest user') do
